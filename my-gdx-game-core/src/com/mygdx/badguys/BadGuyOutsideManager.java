@@ -18,7 +18,7 @@ public class BadGuyOutsideManager {
 	
 	public BadGuyOutsideManager() {
 		badGuys = new ArrayList<BadGuy>();
-		width = Gdx.graphics.getWidth() / 2;
+		width = Gdx.graphics.getWidth() / 2;         // get screen width and height (used for frustum culling)
 		height = Gdx.graphics.getHeight() / 2;
 	}
 		
