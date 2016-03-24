@@ -394,7 +394,7 @@ public class Sterria extends ApplicationAdapter implements InputProcessor {
 				WORLDWIDTH, WORLDHEIGHT);
 
 
-		worldMap.moveWater(camX - 4, camY - 4, endX + 4, endY + 4);
+		worldMap.moveWater(camX - 40, camY - 40, endX + 40, endY + 40);
 
 		////////////////////////////////////////////////////////////////
 		// Render bad guy sprites and move / update / animate etc them
