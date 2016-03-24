@@ -11,6 +11,7 @@ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 
 public class BadGuyOutsideManager {
 
+	// Store baddies in here
 	private List<BadGuy> badGuys;
 
 	private int width, height;
