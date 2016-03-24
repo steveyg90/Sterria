@@ -13,7 +13,12 @@ public abstract class BadGuy  {
 
 	protected enum State { 
 		IDLE,
-		CHASE
+		CHASE,
+		WALK,
+		RUN,
+		JUMP,
+		DEAD,
+		FLY, 
 	}
 	
 	protected State currentState = State.IDLE;
